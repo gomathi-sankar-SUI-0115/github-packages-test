@@ -6,6 +6,10 @@
     "type": "git",
     "url": "https://github.com/gomathi-sankar-SUI-0115/github-packages-test"
   },
+  "author": {
+    "name": "Gomathi Sankar",
+    "email": "gomzsankar@gmail.com"
+  },
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",

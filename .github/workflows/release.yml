@@ -27,7 +27,3 @@ jobs:
         run: |
           yarn 
           yarn release
-
-      - name: Publish Package
-        run: |
-          yarn publish --verbose
