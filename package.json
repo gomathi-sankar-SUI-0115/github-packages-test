@@ -40,6 +40,7 @@
     "commit": "cz",
     "changelog": "conventional-changelog --config .changelogrc.js -i CHANGELOG.md -s -a",
     "postchangelog": "git add CHANGELOG.md",
+    "postversion": "git commit -m \"chore: update version\" && git push",
     "prebuild": "rimraf dist/*",
     "prerelease": "yarn build",
     "release": "semantic-release",
