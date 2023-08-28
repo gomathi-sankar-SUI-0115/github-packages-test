@@ -20,8 +20,8 @@ jobs:
         with:
           node-version: '18.12.0'
 
-      - name: Set NPM Config
-        run: npm config set '//npm.pkg.github.com/:_authToken' "${GITHUB_TOKEN}"
+      - name: Set Auth Token in Config
+        run: yarn config set 'npmRegistries["//npm.pkg.github.com"].npmAuthToken' "${GITHUB_TOKEN}"
 
       - name: Create Release
         run: |
