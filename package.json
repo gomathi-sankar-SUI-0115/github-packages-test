@@ -39,9 +39,9 @@
     "postchangelog": "git add CHANGELOG.md",
     "cz": "git-cz",
     "dev": "microbundle watch",
-    "prepack": "yarn run build",
+    "prerelease": "yarn build",
     "test": "jest",
     "release": "semantic-release",
-    "version": "yarn run changelog"
+    "version": "yarn changelog"
   }
 }

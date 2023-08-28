@@ -5,6 +5,7 @@ on:
       - master
 env:
   GITHUB_TOKEN: ${{ secrets.PAT_GITHUB }}
+  GH_TOKEN: ${{ secrets.PAT_GITHUB }}
 
 jobs:
   release-package:
