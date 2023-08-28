@@ -2,8 +2,6 @@
 
 set -eu
 
-yarn run test
-
 prev_version=$(npx -c 'echo $npm_package_version')
 yarn version --no-git-tag-version "$@"
 curr_version=$(npx -c 'echo $npm_package_version')
@@ -18,5 +16,3 @@ git tag "$curr_version" -m "v$curr_version"
 
 git push
 git push --tags
-
-
