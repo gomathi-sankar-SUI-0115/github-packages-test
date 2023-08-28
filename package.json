@@ -2,6 +2,8 @@
   "name": "@smgsankar/math-test-gh-packages",
   "version": "0.1.0",
   "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/smgsankar/github-packages-test"
