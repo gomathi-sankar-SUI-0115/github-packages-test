@@ -12,3 +12,10 @@
 
 * attempt to update package version ([a5a70a7](https://github.com/smgsankar/github-packages-test/commit/a5a70a72ad6304bfdb48741a4c1eafde109d3b75))
 
+## [2.0.6](https://github.com/smgsankar/github-packages-test/compare/v2.0.5...v2.0.6) (2023-08-28)
+
+
+### Bug Fixes
+
+* attempt 2 to update version ([2f96521](https://github.com/smgsankar/github-packages-test/commit/2f9652170d020825f78f549a43e2b38a30410036))
+
