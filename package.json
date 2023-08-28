@@ -33,8 +33,7 @@
     "commit": "cz",
     "prerelease": "yarn build",
     "test": "jest",
-    "release": "semantic-release",
-    "version": "yarn changelog"
+    "release": "semantic-release"
   },
   "config": {
     "commitizen": {
