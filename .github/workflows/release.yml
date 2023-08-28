@@ -23,7 +23,11 @@ jobs:
       - name: Set NPM Config
         run: npm config set '//npm.pkg.github.com/:_authToken' "${GH_TOKEN}"
 
-      - name: Release Package
+      - name: Create Release
         run: |
           yarn 
           yarn release
+
+      - name: Publish Package
+        run: |
+          yarn publish --verbose
