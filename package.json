@@ -12,6 +12,9 @@
     "name": "Gomathi Sankar",
     "email": "gomzsankar@gmail.com"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
@@ -34,7 +37,6 @@
     "build": "tsc",
     "commit": "cz",
     "prebuild": "rimraf dist/*",
-    "prepack": "yarn build",
     "prerelease": "yarn build",
     "test": "jest",
     "release": "semantic-release"
