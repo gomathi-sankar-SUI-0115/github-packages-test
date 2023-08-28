@@ -16,14 +16,14 @@
     "dist"
   ],
   "devDependencies": {
-    "@commitlint/cli": "^9.1.1",
-    "@commitlint/config-conventional": "^9.1.1",
-    "@commitlint/prompt-cli": "^9.1.1",
+    "@commitlint/cli": "^17.7.0",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/prompt-cli": "^17.7.0",
     "@typescript-eslint/eslint-plugin": "^3.6.1",
     "@typescript-eslint/parser": "^3.6.1",
     "commitizen": "^4.1.2",
-    "conventional-changelog-cli": "^2.0.34",
-    "conventional-changelog-conventionalcommits": "^4.3.0",
+    "conventional-changelog": "^5.0.0",
+    "conventional-changelog-conventionalcommits": "^7.0.1",
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
@@ -31,8 +31,8 @@
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
-    "semantic-release": "19.0.5",
-    "typescript": "^4.2.0",
+    "semantic-release": "21.1.1",
+    "typescript": "^4.9.2",
     "yarn-check": "^0.0.3"
   },
   "scripts": {
