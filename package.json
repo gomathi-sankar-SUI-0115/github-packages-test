@@ -1,10 +1,10 @@
 {
-  "name": "math-test-gh-packages",
+  "name": "@smgsankar/math-test-gh-packages",
   "version": "0.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gomathi-sankar-SUI-0115/github-packages-test"
+    "url": "https://github.com/smgsankar/github-packages-test"
   },
   "author": {
     "name": "Gomathi Sankar",

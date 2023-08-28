@@ -4,7 +4,7 @@ on:
     branches:
       - master
 env:
-  GH_TOKEN: ${{ secrets.PAT_GITHUB }}
+  GITHUB_TOKEN: ${{ secrets.PAT_GITHUB }}
 
 jobs:
   release-package:
@@ -21,7 +21,7 @@ jobs:
           node-version: '18.12.0'
 
       - name: Set NPM Config
-        run: npm config set '//npm.pkg.github.com/:_authToken' "${GH_TOKEN}"
+        run: npm config set '//npm.pkg.github.com/:_authToken' "${GITHUB_TOKEN}"
 
       - name: Create Release
         run: |
