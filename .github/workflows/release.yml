@@ -26,8 +26,7 @@ jobs:
         with:
           path: .npmrc
           contents: |
-            @shopuptech:registry=https://npm.pkg.github.com
-            registry=https://registry.yarnpkg.com/
+            registry=https://npm.pkg.github.com
             //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN
             always-auth=true
           write-mode: overwrite
