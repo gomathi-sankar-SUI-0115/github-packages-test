@@ -33,6 +33,8 @@
   "scripts": {
     "build": "tsc",
     "commit": "cz",
+    "prebuild": "rimraf dist/*",
+    "prepack": "yarn build",
     "prerelease": "yarn build",
     "test": "jest",
     "release": "semantic-release"
