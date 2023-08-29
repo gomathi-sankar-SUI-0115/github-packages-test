@@ -19,3 +19,10 @@
 
 * attempt 2 to update version ([2f96521](https://github.com/smgsankar/github-packages-test/commit/2f9652170d020825f78f549a43e2b38a30410036))
 
+## [2.0.7](https://github.com/smgsankar/github-packages-test/compare/v2.0.6...v2.0.7) (2023-08-29)
+
+
+### Bug Fixes
+
+* test without git add in release ([aa8fd03](https://github.com/smgsankar/github-packages-test/commit/aa8fd03c5f9fd1c31f479844105082110ead7e5d))
+
