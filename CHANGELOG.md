@@ -33,3 +33,10 @@
 
 * move configs to config files ([53a767c](https://github.com/smgsankar/github-packages-test/commit/53a767cd4e69349e60a8daafcc847f418055dcb0))
 
+## [2.0.9](https://github.com/smgsankar/github-packages-test/compare/v2.0.8...v2.0.9) (2023-08-29)
+
+
+### Bug Fixes
+
+* release files ([dfd2fb2](https://github.com/smgsankar/github-packages-test/commit/dfd2fb2c9a6aff1407b7b1c0d562352976f8a56b))
+
