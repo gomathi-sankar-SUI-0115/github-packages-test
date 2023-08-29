@@ -40,3 +40,11 @@
 
 * release files ([dfd2fb2](https://github.com/smgsankar/github-packages-test/commit/dfd2fb2c9a6aff1407b7b1c0d562352976f8a56b))
 
+## [2.0.10](https://github.com/smgsankar/github-packages-test/compare/v2.0.9...v2.0.10) (2023-08-29)
+
+
+### Bug Fixes
+
+* fix release dir ([2a1eef4](https://github.com/smgsankar/github-packages-test/commit/2a1eef402107690d260ee3feba0c3101d1838878))
+* restore files ([f688c7d](https://github.com/smgsankar/github-packages-test/commit/f688c7df7c88f7d1c188e1d75b4e23efaf46ab4c))
+
