@@ -1,20 +1,20 @@
-[![GitHub Workflow Status: CI](https://img.shields.io/github/workflow/status/MunifTanjim/npm-package-template/CI?label=CI&style=for-the-badge)](https://github.com/MunifTanjim/npm-package-template/actions?query=workflow%3ACI)
-[![Version](https://img.shields.io/npm/v/<package>?style=for-the-badge)](https://npmjs.org/package/<package>)
-[![Coverage](https://img.shields.io/codecov/c/gh/MunifTanjim/npm-package-template?style=for-the-badge)](https://codecov.io/gh/MunifTanjim/npm-package-template)
-[![License](https://img.shields.io/github/license/MunifTanjim/npm-package-template?style=for-the-badge)](https://github.com/MunifTanjim/npm-package-template/blob/main/LICENSE)
+# NPM Package Template
 
-# NPM Package
+[![Version](https://img.shields.io/github/v/release/smgsankar/github-packages-test)](https://github.com/smgsankar/github-packages-test/pkgs/npm/math-test-gh-packages)
+[![GitHub Workflow Status: Release](https://img.shields.io/github/actions/workflow/status/smgsankar/github-packages-test/release.yml?branch=master)](https://github.com/smgsankar/github-packages-test/actions/workflows/release.yml)
 
-NPM Package Template
+[![License](https://img.shields.io/github/license/smgsankar/github-packages-test?style=for-the-badge)](https://github.com/smgsankar/github-packages-test/blob/master/LICENSE)
+
+Experimenting NPM Package Template with a sample module target to be published on Github Packages registry as a private package
 
 ## Installation
 
 ```sh
 # using yarn:
-yarn add <package>
+yarn add @smgsankar/math-test-gh-packages
 
 # using npm:
-npm install --save <package>
+npm install --save @smgsankar/math-test-gh-packages
 ```
 
 ## License
