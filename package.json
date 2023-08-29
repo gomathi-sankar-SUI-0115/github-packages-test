@@ -12,9 +12,6 @@
     "name": "Gomathi Sankar",
     "email": "gomzsankar@gmail.com"
   },
-  "files": [
-    "dist"
-  ],
   "devDependencies": {
     "@commitlint/cli": "^17.7.0",
     "@commitlint/config-conventional": "^17.7.0",
@@ -45,28 +42,5 @@
     "release": "semantic-release",
     "test": "jest",
     "version": "yarn run changelog"
-  },
-  "config": {
-    "commitizen": {
-      "path": "@commitlint/prompt"
-    }
-  },
-  "release": {
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/npm",
-      "@semantic-release/github",
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "package.json",
-            "CHANGELOG.md"
-          ],
-          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
-      ]
-    ]
   }
 }
