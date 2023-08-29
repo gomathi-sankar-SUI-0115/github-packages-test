@@ -40,7 +40,6 @@
     "build": "tsc",
     "commit": "cz",
     "changelog": "conventional-changelog --config .changelogrc.js -i CHANGELOG.md -s -a",
-    "postchangelog": "git add CHANGELOG.md",
     "prebuild": "rimraf dist/*",
     "prerelease": "yarn build",
     "release": "semantic-release",
