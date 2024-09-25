@@ -1,0 +1,12 @@
+name: Test Github Actions
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Testing Workflow
+        run: |
+          echo "Workflow passed"
