@@ -9,4 +9,4 @@ jobs:
         uses: actions/checkout@v2
       - name: Testing Workflow
         run: |
-          echo "Workflow passed"
+          echo "Workflow passed bla bla bla"
